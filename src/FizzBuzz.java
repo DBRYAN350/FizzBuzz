@@ -8,12 +8,12 @@ class FizzBuzz {
         int i = 0;
         while (i < 100) {
 
-            // Find out which numbers divide i.
-            i = doFIZZBUZZ(i);
+            i = doFizzBuzz(i);
         }
     }
 
-    private static int doFIZZBUZZ(int i) {
+    public static int doFizzBuzz(int i) {
+        // Find out which numbers divide i.
         boolean divisibleBy3 = i % 3 == 0;
         boolean divisibleBy5 = i % 5 == 0;
 
